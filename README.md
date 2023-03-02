@@ -1,4 +1,4 @@
-# Awesome-ML-Lessons-Learnt
+# 📚Awesome-ML-Lessons-Learnt📚
 *A list of lesson learnt and things to watch out for in the Data Science and Machine Learning worlds*
 ***
 
@@ -14,6 +14,8 @@
 - Don't assume the data is available.
 - Don't assume the data is easy to get.
 - Don't assume that the labels are perfect (human bias while labelling).
+- Leaking information while splitting the data. Computing the mean and subtracting it from every image across the entire dataset and then splitting the data into train/val/test splits would be a mistake. Instead, the mean must be computed only over the training data and then subtracted equally from all splits (train/val/test). | [Ref](https://cs231n.github.io/neural-networks-2/) | [Notes](https://drive.google.com/drive/u/1/folders/1gqmJ9JAm_UR9Lzh6Zpj3R3pSLWUIdbQ7)
+
 ***
 
 ## Project management
@@ -37,6 +39,10 @@
 
 ## Recommender system
 - In a recommender system, CTR or NDCG is not the only metric that matters. You have to consider candidate diversity, feedback bias, and $ monetization generated from purchases or Ads
+***
+
+## Time series
+- If the time time series is a random walk, using the R2 metric as a proxy to establish how good the predictive power of the model is, may suggest overly optimistic results when in reality the model has not predictive power at all. | [Blog article](https://www.linkedin.com/pulse/how-use-machine-learning-time-series-forecasting-vegard-flovik-phd/) | [Notes](https://drive.google.com/drive/u/1/folders/1gqmJ9JAm_UR9Lzh6Zpj3R3pSLWUIdbQ7)
 ***
 
 ## Paradoxes
