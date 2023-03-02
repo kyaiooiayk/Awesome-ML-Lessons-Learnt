@@ -1,5 +1,5 @@
 # Awesome-ML-Lessons-Learnt
-Awesome ML Lessons Learnt
+*A list of lesson learnt ot things to watch out for in the Data Science and Machine Learning worlds*
 ***
 
 ## Lessons learnt
@@ -18,4 +18,12 @@ Awesome ML Lessons Learnt
 - Don't celebrate too early. Watch out for data leakage and overfitted model.
 - In fraud modeling, AUC is not the only metric that matters. You have to consider what is the fraud loss in $ and lifetime value $ lost should you ban the wrong user.
 - In a recommender system, CTR or NDCG is not the only metric that matters. You have to consider candidate diversity, feedback bias, and $ monetization generated from purchases or Ads
+***
+
+## Paradoxes
+- Accuracy Paradox | [Notes](https://drive.google.com/drive/u/1/folders/1YW0sN9uGx7bOUbXQOwmZ3RNGoeRDqbiz)
+- False Positive Paradox | [Notes](https://drive.google.com/drive/u/1/folders/1YW0sN9uGx7bOUbXQOwmZ3RNGoeRDqbiz)
+- Gambler’s Fallacy | [Notes](https://drive.google.com/drive/u/1/folders/1YW0sN9uGx7bOUbXQOwmZ3RNGoeRDqbiz)
+- Simpsons Paradox | [Notes](https://drive.google.com/drive/u/1/folders/1YW0sN9uGx7bOUbXQOwmZ3RNGoeRDqbiz)
+- Berkson’s Paradox | [Notes](https://drive.google.com/drive/u/1/folders/1YW0sN9uGx7bOUbXQOwmZ3RNGoeRDqbiz)
 ***
