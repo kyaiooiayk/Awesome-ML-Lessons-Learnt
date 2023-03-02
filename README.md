@@ -21,9 +21,9 @@
 ***
 
 ## Paradoxes
-- Accuracy Paradox | [Notes](https://drive.google.com/drive/u/1/folders/1YW0sN9uGx7bOUbXQOwmZ3RNGoeRDqbiz)
-- False Positive Paradox | [Notes](https://drive.google.com/drive/u/1/folders/1YW0sN9uGx7bOUbXQOwmZ3RNGoeRDqbiz)
-- Gambler’s Fallacy | [Notes](https://drive.google.com/drive/u/1/folders/1YW0sN9uGx7bOUbXQOwmZ3RNGoeRDqbiz)
-- Simpsons Paradox | [Notes](https://drive.google.com/drive/u/1/folders/1YW0sN9uGx7bOUbXQOwmZ3RNGoeRDqbiz)
-- Berkson’s Paradox | [Notes](https://drive.google.com/drive/u/1/folders/1YW0sN9uGx7bOUbXQOwmZ3RNGoeRDqbiz)
+- Accuracy Paradox | [Tutorial](https://github.com/kyaiooiayk/Statistics-Probability-Notes/blob/main/tutorials/5%20Statistical%20Paradoxes.ipynb) | [Notes](https://drive.google.com/drive/u/1/folders/1YW0sN9uGx7bOUbXQOwmZ3RNGoeRDqbiz)
+- False Positive Paradox | [Tutorial](https://github.com/kyaiooiayk/Statistics-Probability-Notes/blob/main/tutorials/5%20Statistical%20Paradoxes.ipynb) | [Notes](https://drive.google.com/drive/u/1/folders/1YW0sN9uGx7bOUbXQOwmZ3RNGoeRDqbiz)
+- Gambler’s Fallacy | [Tutorial](https://github.com/kyaiooiayk/Statistics-Probability-Notes/blob/main/tutorials/5%20Statistical%20Paradoxes.ipynb) | [Notes](https://drive.google.com/drive/u/1/folders/1YW0sN9uGx7bOUbXQOwmZ3RNGoeRDqbiz)
+- Simpsons Paradox | [Tutorial](https://github.com/kyaiooiayk/Statistics-Probability-Notes/blob/main/tutorials/5%20Statistical%20Paradoxes.ipynb) | [Notes](https://drive.google.com/drive/u/1/folders/1YW0sN9uGx7bOUbXQOwmZ3RNGoeRDqbiz)
+- Berkson’s Paradox | [Tutorial](https://github.com/kyaiooiayk/Statistics-Probability-Notes/blob/main/tutorials/5%20Statistical%20Paradoxes.ipynb) | [Notes](https://drive.google.com/drive/u/1/folders/1YW0sN9uGx7bOUbXQOwmZ3RNGoeRDqbiz)
 ***
