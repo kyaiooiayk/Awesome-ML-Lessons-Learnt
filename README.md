@@ -18,6 +18,8 @@
 - Don't assume the data is easy to get.
 - Don't assume that the labels are perfect (human bias while labelling).
 - Train-test leakage. Leaking information while splitting the data. Computing the mean and subtracting it from every image across the entire dataset and then splitting the data into train/val/test splits would be a mistake. Instead, the mean must be computed only over the training data and then subtracted equally from all splits (train/val/test). | [Ref](https://cs231n.github.io/neural-networks-2/) | [Notes](https://drive.google.com/drive/u/1/folders/1gqmJ9JAm_UR9Lzh6Zpj3R3pSLWUIdbQ7)
+- **Not handling outliers in datasets properly** Outliers can either be a noise to ignore or important to take into account. ML algorithms differ in their sensitivity to outliers — AdaBoost is more sensitive to outliers compared to XgBoost which is more sensitive than a decision tree that would simply count an outlier as a false classification. | [Blog article](https://www.kdnuggets.com/2021/06/9-deadly-sins-ml-dataset-selection.html)
+- **Using Normalisation instead of Standardisation** This is realted to issue of how to scale feature. To bring features to the same scale, use normalisation (MinMaxScaler) when the data is uniformly distributed and standardisation (StandardScaler) when the feature is approximately Gaussian. | [Blog article](https://www.kdnuggets.com/2021/06/9-deadly-sins-ml-dataset-selection.html)
 ***
 
 ## Project management
