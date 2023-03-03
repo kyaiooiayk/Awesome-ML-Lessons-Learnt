@@ -38,6 +38,7 @@
 
 ## Classification
 - In fraud modeling, AUC is not the only metric that matters. You have to consider what is the fraud loss in $ and lifetime value $ lost should you ban the wrong user.
+- **Inflating recall on imbalance dataset** If the data is resampled (oversampling) before splitting it into training and test  sets, the recall score will be inflated. The appropriate strategy is to split the data into a training and test set first and then to resample the data.
 ***
 
 ## Recommender system
