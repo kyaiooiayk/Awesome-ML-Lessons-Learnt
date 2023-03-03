@@ -11,6 +11,7 @@
 - [Recommender system](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#recommender-system)
 - [Baises](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#biases)
 - [Time series](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#time-series)
+- [Deep Learning](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#deep-learning) 
 ***
 
 ## Data
@@ -20,6 +21,8 @@
 - Train-test leakage. Leaking information while splitting the data. Computing the mean and subtracting it from every image across the entire dataset and then splitting the data into train/val/test splits would be a mistake. Instead, the mean must be computed only over the training data and then subtracted equally from all splits (train/val/test). | [Ref](https://cs231n.github.io/neural-networks-2/) | [Notes](https://drive.google.com/drive/u/1/folders/1gqmJ9JAm_UR9Lzh6Zpj3R3pSLWUIdbQ7)
 - **Not handling outliers in datasets properly** Outliers can either be a noise to ignore or important to take into account. ML algorithms differ in their sensitivity to outliers — AdaBoost is more sensitive to outliers compared to XgBoost which is more sensitive than a decision tree that would simply count an outlier as a false classification. | [Blog article](https://www.kdnuggets.com/2021/06/9-deadly-sins-ml-dataset-selection.html)
 - **Using Normalisation instead of Standardisation** This is realted to issue of how to scale feature. To bring features to the same scale, use normalisation (MinMaxScaler) when the data is uniformly distributed and standardisation (StandardScaler) when the feature is approximately Gaussian. | [Blog article](https://www.kdnuggets.com/2021/06/9-deadly-sins-ml-dataset-selection.html)
+- **Not verifying for duplicates in the training dataset** Double-checking often reveals that many of the examples in the test set are duplicates of examples in the training set. In such scenarios, the measurements of model generalization are non-deterministic (or meaningless). | [Blog article](https://www.kdnuggets.com/2021/06/9-deadly-sins-ml-dataset-selection.html)
+- No unit tests for validating input data: In traditional software development projects, it is a best practice to write unit tests to validate code dependencies. In ML projects, a similar best practice needs to be applied to continuously test, verify, and monitor all the input datasets. This includes ensuring test sets yield statistically meaningful results and representative of the data set as a whole. | [Blog article](https://www.kdnuggets.com/2021/06/9-deadly-sins-ml-dataset-selection.html)
 ***
 
 ## Project management
@@ -72,4 +75,8 @@
 - Labeling bias
 - Confirmation bias: people's tendency to process information by looking for, or interpreting, information that is consistent with their existing beliefs.
 - Survivorship bias: the phenomenon where only those that ‘survived’ a long process are included or excluded in an analysis, thus creating a biased sample.
+***
+
+## Deep Learning
+- Avoid using fully-connected layers or MLPs in general** For any structured data, like spatial functions, or field data in general, convolutions are preferable, and less likely to overfit. E.g., you’ll notice that CNNs typically don’t need dropout, as they’re nicely regularized by construction. For MLPs, you typically need quite a bit to avoid overfitting.
 ***
