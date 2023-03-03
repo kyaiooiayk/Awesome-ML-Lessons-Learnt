@@ -10,6 +10,7 @@
 - [Training](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#model-training)
 - [Recommender system](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#recommender-system)
 - [Baises](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#biases)
+- [Time series](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#time-series)
 ***
 
 ## Data
@@ -46,6 +47,7 @@
 ## Time series
 - If the time time series is a random walk, using the R2 metric as a proxy to establish how good the predictive power of the model is, may suggest overly optimistic results when in reality the model has not predictive power at all. | [Blog article](https://www.linkedin.com/pulse/how-use-machine-learning-time-series-forecasting-vegard-flovik-phd/) | [Notes](https://drive.google.com/drive/u/1/folders/1gqmJ9JAm_UR9Lzh6Zpj3R3pSLWUIdbQ7)
 - Target leakage: Think of it in terms of the timing or chronological order that data becomes available, not merely whether a feature helps make good predictions. | [Blog article](https://www.kaggle.com/code/alexisbcook/data-leakage/tutorial) 
+- **Temporal leak** If you’re trying to predict the future given the past (for example, tomorrow’s weather, stock movements, and so on), you should not randomly shuffle your data before splitting it, because doing so will create a temporal leak: your model will effectively be trained on data from the future. In such situations, you should always make sure all data in your test set is posterior to the data in the training set. 
 ***
 
 ## Paradoxes
