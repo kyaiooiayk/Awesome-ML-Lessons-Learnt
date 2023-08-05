@@ -3,16 +3,16 @@
 ***
 
 ## Table of contents
+- [Baises](#biases)
+- [Classification](#classification)
 - [Data](#data)
-- [Feature engineering](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#feature-engineering)
-- [Project management](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#project-management)
-- [Model training](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#model-training)
-- [Classification](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#classification)
-- [Training](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#model-training)
-- [Recommender system](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#recommender-system)
-- [Baises](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#biases)
-- [Time series](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#time-series)
-- [Deep Learning](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#deep-learning) 
+- [Deep Learning](#deep-learning) 
+- [Feature engineering](#feature-engineering)
+- [Model training](#model-training)
+- [Project management](#project-management)
+- [Recommender system](#recommender-system)
+- [Time series](#time-series)
+- [Training](#model-training)
 ***
 
 ## Data
@@ -26,7 +26,7 @@
 - No unit tests for validating input data: In traditional software development projects, it is a best practice to write unit tests to validate code dependencies. In ML projects, a similar best practice needs to be applied to continuously test, verify, and monitor all the input datasets. This includes ensuring test sets yield statistically meaningful results and representative of the data set as a whole. | [Blog article](https://www.kdnuggets.com/2021/06/9-deadly-sins-ml-dataset-selection.html)
 ***
 
-## Feature enginerring
+## Feature engineering
 - Models like Random Forest, XGBoost, LightGBM, NaiveBayes, and elasticNet all perform better on small data sets if you pull out irrelevant features beforehand. This means that you should be using some sort of stepwise technique when adding or removing features, but here's another thing of which you must be cognizant. The order in which you add or remove features can greatly affect your model when doing stepwise featurization with any of them. Accuracy differences of 10% or more are not uncommon. Thus, when working with small data, in addition to hyperparameter tuning, you should also add in **stepwise featurisation** (retrain and score the model many times with different features, keeping or removing features only when model performance improves), and randomize the order of the features you add or subtract. Doing so will create the best models. [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7092956477665001472/)
 ***
 
