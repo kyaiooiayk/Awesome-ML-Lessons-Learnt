@@ -3,7 +3,7 @@
 ***
 
 ## Table of contents
-- [Data](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#data)
+- [Data](#data)
 - [Feature engineering](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#feature-engineering)
 - [Project management](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#project-management)
 - [Model training](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#model-training)
