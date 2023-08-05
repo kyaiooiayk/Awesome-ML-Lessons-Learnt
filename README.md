@@ -4,6 +4,7 @@
 
 ## Table of contents
 - [Data](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#data)
+- [Feature engineering](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#feature-engineering)
 - [Project management](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#project-management)
 - [Model training](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#model-training)
 - [Classification](https://github.com/kyaiooiayk/Awesome-ML-Lessons-Learnt/edit/main/README.md#classification)
@@ -23,6 +24,9 @@
 - **Using Normalisation instead of Standardisation** This is realted to issue of how to scale feature. To bring features to the same scale, use normalisation (MinMaxScaler) when the data is uniformly distributed and standardisation (StandardScaler) when the feature is approximately Gaussian. | [Blog article](https://www.kdnuggets.com/2021/06/9-deadly-sins-ml-dataset-selection.html)
 - **Not verifying for duplicates in the training dataset** Double-checking often reveals that many of the examples in the test set are duplicates of examples in the training set. In such scenarios, the measurements of model generalization are non-deterministic (or meaningless). | [Blog article](https://www.kdnuggets.com/2021/06/9-deadly-sins-ml-dataset-selection.html)
 - No unit tests for validating input data: In traditional software development projects, it is a best practice to write unit tests to validate code dependencies. In ML projects, a similar best practice needs to be applied to continuously test, verify, and monitor all the input datasets. This includes ensuring test sets yield statistically meaningful results and representative of the data set as a whole. | [Blog article](https://www.kdnuggets.com/2021/06/9-deadly-sins-ml-dataset-selection.html)
+***
+
+## Feature enginerring
 ***
 
 ## Project management
