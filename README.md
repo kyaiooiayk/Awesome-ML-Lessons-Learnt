@@ -27,6 +27,7 @@
 ***
 
 ## Feature enginerring
+- Models like Random Forest, XGBoost, LightGBM, NaiveBayes, and elasticNet all perform better on small data sets if you pull out irrelevant features beforehand. This means that you should be using some sort of stepwise technique when adding or removing features, but here's another thing of which you must be cognizant. The order in which you add or remove features can greatly affect your model when doing stepwise featurization with any of them. Accuracy differences of 10% or more are not uncommon. Thus, when working with small data, in addition to hyperparameter tuning, you should also add in **stepwise featurisation** (retrain and score the model many times with different features, keeping or removing features only when model performance improves), and randomize the order of the features you add or subtract. Doing so will create the best models. [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7092956477665001472/)
 ***
 
 ## Project management
