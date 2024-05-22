@@ -83,5 +83,5 @@
 ***
 
 ## Deep Learning
-- Avoid using fully-connected layers or MLPs in general** For any structured data, like spatial functions, or field data in general, convolutions are preferable, and less likely to overfit. E.g., you’ll notice that CNNs typically don’t need dropout, as they’re nicely regularized by construction. For MLPs, you typically need quite a bit to avoid overfitting.
+- Avoid using fully-connected layers or MLPs in general. For any structured data, like spatial functions, or field data in general, convolutions are preferable, and less likely to overfit. E.g., you’ll notice that CNNs typically don’t need dropout, as they’re nicely regularized by construction. For MLPs, you typically need quite a bit to avoid overfitting.
 ***
